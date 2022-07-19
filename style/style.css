@@ -1,0 +1,104 @@
+:root{
+    --azul:rgb(3, 129, 138);
+    --preta:#141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base */
+body{
+    background: var(--preta);
+    font-family: 'Arial', Arial, Times, serif;
+    color: #fff;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--azul);
+    font-family:'Arial Black',Arial Bold,sans-serif, Times; 
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/* coisas relacionadas a capa*/
+
+.jogo-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/000capaGOWR.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.jogo-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color:rgba(0,0,0,.50);
+    border: none;
+    color: #fff;
+    padding: 15px/*cima e embaixo*/ 30px/*esqueda e direita*/;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: #fff;
+    color: #141414;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.jogo-principal .container{
+    width: 70%;
+}
+
+.box-jogo{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-jogos{
+    margin-top: 5px;
+}
+
