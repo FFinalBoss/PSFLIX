@@ -14,4 +14,4 @@ Técnologias usadas:
 ***
 
 <img src = "img/img1.png">
-<img src = "img/Img2.png">
+<img src = "img/img2.png">
