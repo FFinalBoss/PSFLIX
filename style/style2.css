@@ -21,6 +21,7 @@ body{
 
 
 header .container{
+    position: absolute;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -45,6 +46,7 @@ header nav a{
 header nav a:hover{
     color: #fff;
 }
+
 
 .jogo-principal{
     position: absolute;
