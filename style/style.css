@@ -15,6 +15,7 @@ body{
     background: var(--preta);
     font-family: 'Arial', Arial, Times, serif;
     color: #fff;
+    padding: 5px;
 }
 
 header .container{
