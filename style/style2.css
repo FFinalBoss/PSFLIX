@@ -51,7 +51,7 @@ header nav a:hover{
 
 
 .jogo-principal{
-    height: 4050px;
+    height: 3950px;
     background: linear-gradient(rgba(9, 54, 177, 0.966),rgba(0,0,0,.50)100%), url('../img/giwr.jpg') no-repeat center top fixed;
     
 }
@@ -86,7 +86,7 @@ main .container{
     text-align: center;
     padding: 20px;
     width:1200px;
-    height:150px;
+    height:100px;
     
 }
 
@@ -100,8 +100,8 @@ p{
 h2{
     padding: 20px;
     width:1100px;
-    height:50px;
-    margin: 50px;
+    height:30px;
+    margin: 20px;
 }
 
 h3{
@@ -122,11 +122,52 @@ h3{
     padding: 20px;
     height: 250px;
 }
+
+.texto{
+    padding: 10px;
+    width: 500px;
+    right: 400px;
+    float: left;
+}
+
 .div2{
     text-align: center;
     padding: 20px;
-    width:1200px;
+    width:1250px;
     height:380px;
+    border: 3px solid #fff;
+}
+
+.div3{
+    text-align: center;
+    padding: 20px;
+    width:1250px;
+    height:445px;
+    border: 3px solid #fff;
+}
+
+.div4{
+    text-align: center;
+    padding: 20px;
+    width:1250px;
+    height:445px;
+    border: 3px solid #fff;
+}
+
+.div5{
+    text-align: center;
+    padding: 20px;
+    width:1250px;
+    height:550px;
+    border: 3px solid #fff;
+    
+}
+
+.div6{
+    text-align: center;
+    padding: 20px;
+    width:1250px;
+    height:570px;
     border: 3px solid #fff;
 }
 
@@ -138,7 +179,7 @@ h3{
 .launch{
     width: 700px;
     height: 400px;
-    margin: 100px;
+    margin: 0;
     display: inline-block;
     float: left;
 }
@@ -146,7 +187,7 @@ h3{
 .digital{
     width: 700px;
     height: 400px;
-    margin: 100px;
+    margin: 0;
     display: inline-block;
     float: left;
 }
@@ -154,15 +195,16 @@ h3{
 .colecionador{
     width: 700px;
     height: 400px;
-    margin: 100px;
+    margin: 0;
     display: inline-block;
     float: left;
+    
 }
 
 .jotnar{
     width: 700px;
     height: 400px;
-    margin: 100px;
+    margin: 0;
     display: inline-block;
     float: left;
 }
