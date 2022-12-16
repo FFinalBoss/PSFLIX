@@ -51,7 +51,7 @@ header nav a:hover{
 
 
 .jogo-principal{
-    
+    height: 4050px;
     background: linear-gradient(rgba(9, 54, 177, 0.966),rgba(0,0,0,.50)100%), url('../img/giwr.jpg') no-repeat center top fixed;
     
 }
@@ -94,5 +94,84 @@ p{
     text-align: center;
     padding: 20px;
     width:1200px;
-    height:150px;
+    height:170px;
 }
+
+h2{
+    padding: 20px;
+    width:1100px;
+    height:50px;
+    margin: 50px;
+}
+
+h3{
+    padding: 20px;
+    width:1100px;
+    height:10px;
+  
+    margin: 50px;
+}
+
+.historia{
+    border: 3px solid #fff;
+    
+}
+
+.jogabilidade{
+    border: 3px solid #fff;
+    padding: 20px;
+    height: 250px;
+}
+.div2{
+    text-align: center;
+    padding: 20px;
+    width:1200px;
+    height:380px;
+    border: 3px solid #fff;
+}
+
+.standard{
+    display: inline-block;
+    float: left;
+}
+
+.launch{
+    width: 700px;
+    height: 400px;
+    margin: 100px;
+    display: inline-block;
+    float: left;
+}
+
+.digital{
+    width: 700px;
+    height: 400px;
+    margin: 100px;
+    display: inline-block;
+    float: left;
+}
+
+.colecionador{
+    width: 700px;
+    height: 400px;
+    margin: 100px;
+    display: inline-block;
+    float: left;
+}
+
+.jotnar{
+    width: 700px;
+    height: 400px;
+    margin: 100px;
+    display: inline-block;
+    float: left;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 3px;
+    color: rgb(255, 255, 255);
+  }
