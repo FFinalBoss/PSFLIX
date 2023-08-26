@@ -1,8 +1,10 @@
-<h1 align = "center"> PSFLIX </h1>
+# <p align = "center"> PSFLIX </p>
 
 ***
 
 <h3>Esse projeto tem por objetivo construir um site(com base na página do NETFLIX) falando sobre o jogo mais esperado do ano por mim o GOW Ragnarok.</h3>
+
+## <p align = "center"> [Acessar PSFlix](https://psflix-jovemdevv.vercel.app) </p>
 
 ***
 
