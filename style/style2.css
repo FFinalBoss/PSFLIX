@@ -12,7 +12,6 @@
   
   /* elementos base */
   body {
-    padding: 5px;
     background: var(--preta);
     justify-content: center;
     font-family: 'Arial', Arial, Times, serif;
@@ -45,8 +44,7 @@
   }
   
   .jogo-principal {
-    height: 4550px;
-    margin: 10px;
+    height: 100%;
     background: linear-gradient(
         rgba(9, 54, 177, 0.966),
         rgba(0, 0, 0, 0.5) 100%
@@ -81,7 +79,7 @@
     text-align: center;
   width: 100%;
   max-width: 1200px;
-  /* Adiciona uma margem lateral para os elementos */
+  font-size: 20px;
   margin: 13px;
   /* Coloca o conteúdo dentro das bordas */
   padding: 20px;
@@ -101,37 +99,37 @@
     margin: 20px;
   }
   
-  h3 {
-    padding: 20px;
-    width: 1100px;
-    height: 10px;
-    margin: 50px;
-  }
+ 
 
 .historia{
     border: 3px solid #fff; 
     text-align: center;
     width: 100%;
-    max-width: 1200px;
     /* Adiciona uma margem lateral para os elementos */
     margin: 40px;
-    /* Coloca o conteúdo dentro das bordas */
+    
     padding: 20px;   
 }
 
+.historia p{
+    width: 95%;
+    margin-left: 20px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
 .jogabilidade{
-    border: 3px solid #fff;
     text-align: center;
     width: 100%;
     max-width: 1200px;
     /* Adiciona uma margem lateral para os elementos */
-    margin: 40px;
+    
     /* Coloca o conteúdo dentro das bordas */
     padding: 40px;
 }
 
 .personagens{
-    border: 3px solid #fff;
+    
     padding: 60px;
     text-align: center;
     width: 100%;
@@ -142,7 +140,7 @@
     }
 
 .desenvolvimento{
-    border: 3px solid #fff;
+    
     text-align: center;
     width: 100%;
     max-width: 1200px;
@@ -153,7 +151,7 @@
 }
 
 .recepcao{
-    border: 3px solid #fff;
+    
     text-align: center;
     width: 100%;
     max-width: 1200px;
@@ -166,8 +164,30 @@
 
 
 .texto{
-    justify-content: center;
+    font-size: 20px;
+    margin-top: 120px;
+    width: 95%;
+    margin-left: 20px;
 }
+
+.texto1 {
+    font-size: 17px;
+    margin-top: 10px;
+    width: 80%;
+  margin-bottom: -50px;
+  margin-left: 200px;
+}
+
+.texto1 p{
+    width: 95%;
+    margin-bottom: -90px;
+    margin-left: 100px;
+}
+
+.texto2{
+    margin-top: 30px;
+}
+
 
 .div2{
     text-align: center;
@@ -176,14 +196,14 @@
     height:470px;
     margin: 40px;
     border: 3px solid #fff;
+    margin-bottom: 80px;
 }
 
 .div3{
     text-align: center;
     padding: 20px;
     width:1200px;
-    margin: 40px;
-    height:450px;
+    height:530px;
     margin: 40px;
     border: 3px solid #fff;
 }
@@ -191,9 +211,9 @@
 .div4{
     text-align: center;
     padding: 20px;
-    width:1210px;
-    margin: 40px;
-    height:450px;
+    width: 1210px;
+    margin: 100px;
+    height:530px;
     border: 3px solid #fff;
 }
 
@@ -201,10 +221,10 @@
     text-align: center;
     padding: 20px;
     width:1200px;
-    margin: 40px;
-    height:570px;
+    margin: 60px;
+    height:730px;
     border: 3px solid #fff;
-    
+    margin-bottom: 300px;
 }
 
 .div6{
@@ -227,26 +247,29 @@
 .launch{
     width: 700px;
     height: 400px;
-    margin: 0;
+    padding: 15px ;
    float: left;
+   margin-top: 60px;
 }
 
 .digital{
-    width: 700px;
-    height: 400px;
+    width: 670px;
+    height: 380px;
     margin: 0;
-
+    margin-top: 60px;
     display: inline-block;
     float: left;
+    margin-left: 20px;
 }
 
 .colecionador{
-    width: 700px;
+    width: 670px;
     height: 400px;
     margin: 0;
     display: inline-block;
     float: left;
-    
+    margin-left: 20px;
+    margin-top: 60px;
 }
 
 .jotnar{
@@ -264,12 +287,160 @@
     width: 50%;
     text-align: center;
     margin-top: 70px;
+    font-size: 40px;
+    margin-bottom: 70px;
+    }
+
+    .referencias a{
+        color: #fff;
+        font-size: 20px;
     }
 
 footer {
     display: flex;
+    font-size: 1.2rem;
+    font-weight: bold;
     align-items: center;
+    background: #000033;
     justify-content: center;
     padding: 10px;
     color: rgb(255, 255, 255);
   }
+
+  
+  
+  @media (max-width: 768px) {
+    .container{ 
+      width: 100%;
+      height: 100%;
+      
+    }
+    nav {
+      display: none;
+    }
+
+  body {
+    width: 100%;
+    height: 200%;
+    }
+    .jogo-principal h1 {
+      
+      font-size: 30px;
+    }
+    h2 {
+      font-size: 20px;
+      display: flex;
+     margin-bottom: 0px;
+    }
+
+    .descricao {
+      font-size: 15px;
+      margin-bottom: 150px;
+    }
+    .historia p{
+      margin-bottom: 350px;
+      font-size: 15px;
+    }
+    .personagens p{
+      margin-bottom: -80px;
+    }
+    .ruim{
+      margin-bottom: -60px;
+    }
+    .ruim1{
+      margin-bottom: -30px;
+    }
+    .ruim2{
+      margin-bottom: -40px;
+    }
+    .h2 {
+      font-size: 30px;
+      width: 100%;
+      margin-bottom: 50px;
+    }
+    .div2{
+      width: 100%; 
+      height: 100%;
+      
+    }
+    .div3{
+      width: 100%; 
+      height: 100%;
+      
+    }
+    .div4{
+      display: flex;
+      flex-direction: column;
+      width: 100%; 
+      height: 650px;
+      margin-bottom: 100px;
+    }
+    .div5{
+      width: 100%; 
+      height: 80%;
+      margin-bottom: 0px;
+    }
+
+    .launch {
+      width: 100%; 
+      height: 100%;
+      margin-left: 0px;
+    
+    }
+    .digital {
+      width: 100%; 
+      height: 50%;
+      margin-left: 0px;
+    }
+
+    .colecionador {
+      width: 100%; 
+      height: 100%;
+      margin-left: 0px;
+    }
+    .standard{
+      width: 100%; 
+      height: 100%;
+      margin-left: 0px;
+    }
+
+    .colecionador{
+      width: 100%; 
+      height: 100%;
+      margin-left: 0px;
+    }
+
+    .texto{
+      width: 100%; 
+      height: 100%;
+      font-size: 15px;
+      margin-left: -5px;
+    }
+
+    .texto1{
+      display: flex;
+      width: 400px;
+      height: 100%;
+      font-size: 15px;
+      margin-left: -100px;
+    }
+
+    .texto2 {
+      font-size: 15px;
+      width: 80%;
+      margin-left: 20px;
+    }
+    .h2{
+      width: 100%;
+      margin-bottom: 0px;
+    }
+
+    .referencias a{
+      font-size: 15px;
+    }
+
+    footer {
+      font-size: 14px;
+    }
+  }
+  
